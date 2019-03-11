@@ -1,0 +1,11 @@
+.estilo-slide{
+margin-bottom: 1em;
+margin-top:0.4em;
+-webkit-box-shadow: -1px 3px 21px 14px rgba(0,0,0,0.43);
+-moz-box-shadow: -1px 3px 21px 14px rgba(0,0,0,0.43);
+box-shadow: -1px 3px 21px 14px rgba(0,0,0,0.43);
+}
+
+.texto-color{
+  color: black;
+}
