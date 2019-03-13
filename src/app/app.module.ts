@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
+import { MapasComponent } from './components/mapas/mapas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
     NavbarComponent,
     CardsComponent,
     FooterComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    MapasComponent
   ],
   imports: [
     BrowserModule,

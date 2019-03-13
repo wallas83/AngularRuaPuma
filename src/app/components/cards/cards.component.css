@@ -1,11 +1,19 @@
 .cards-estilo{
+
 margin: 0.5em;
 padding: 2em;
 }
 .cards-margenes{
   margin:0.5em;
 
--webkit-box-shadow: -1px 3px 21px 14px rgba(0,0,0,0.43);
--moz-box-shadow: -1px 3px 21px 14px rgba(0,0,0,0.43);
- box-shadow: -1px 3px 21px 14px rgba(0,0,0,0.43);
+-webkit-box-shadow: -1px 3px 21px 14px rgba(46, 38, 38, 0.43);
+-moz-box-shadow: -1px 3px 21px 14px rgba(46, 38, 38, 0.43);
+ box-shadow: -1px 3px 21px 14px rgba(46, 38, 38, 0.43);
+ -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius:20px;
+}
+.estilo-h1ruta{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
