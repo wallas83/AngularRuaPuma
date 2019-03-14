@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { MapasComponent } from './components/mapas/mapas.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
