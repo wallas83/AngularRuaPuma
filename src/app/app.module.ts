@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { MapasComponent } from './components/mapas/mapas.component';
 
+import {AgmCoreModule}from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,10 @@ import { MapasComponent } from './components/mapas/mapas.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey:'AIzaSyBeLH-4u1T4LTj0zQhRms8Kp3DsE9hRxq4'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
