@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import{MapasService,mapa}from '@../../services/mapas.service';
 
 @Component({
   selector: 'app-mapas',
@@ -6,13 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mapas.component.css']
 })
 export class MapasComponent implements OnInit {
-  title: string = 'My first AGM project';
-  lat: number = 51.678418;
-  lng: number = 7.809007;
+  title: string = 'Ruta chasquipampa';
+  lat: number = -16.533680;
+  lng: number =  -68.037116;
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
