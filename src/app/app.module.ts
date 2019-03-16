@@ -11,7 +11,7 @@ import { MapasComponent } from './components/mapas/mapas.component';
 //mapas
 import {AgmCoreModule}from '@agm/core';
 //servicios
-import {MapasService} from './services/mapas.service';
+//import {MapasService} from './services/mapas.service';
 @NgModule({
   declarations: [
     AppComponent,
